@@ -1,0 +1,414 @@
+* {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+
+
+html, body{
+	background-color:#003C5D;
+	color:#e7e7e7;
+	margin: 0;
+	min-width: 320px;
+	
+}
+
+html {
+	position: relative;
+	min-height: 100%;
+}
+
+body {
+  /* Margin bottom by footer height */
+	margin-bottom: 50px;
+}
+
+
+div.logo {
+	padding-left:20px;
+	
+}
+
+.navbar-default {
+    background-color: #003C5D;
+}
+
+.navbar-default .navbar-nav  li  a {
+    color: #e7e7e7;
+	padding:10px 20px 10px 20px;
+}
+
+.navbar-default .navbar-nav  li  a:hover {
+    color: #444;
+	background-color:#e7e7e7;
+}
+
+div.navbar-collapse.collapse.in{
+	padding:0;
+
+}
+
+#bs-example-navbar-collapse-1{
+	padding:0;
+	margin:0;	
+}
+
+div.navbar-collapse.collapse.in ul.nav.navbar-nav{
+	margin:0;
+}
+
+#bs-example-navbar-collapse-1 > ul:nth-child(2) {
+	margin:0;
+}
+
+#bs-example-navbar-collapse-1 > ul.nav.navbar-nav.navbar-right {
+	margin:0;
+	
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+    color: #444;
+    background-color: #e7e7e7;
+}
+
+.fixed-side .navbar-nav>li>a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.logo-header{
+	padding-left:20px;
+	
+}
+
+.content {
+	text-align:justify;
+	
+}
+
+.content h1 {
+	font-size: 1.5em;
+	padding-top:20px;
+	padding-bottom:20px;
+	margin:0;
+}
+
+.content h2 {
+	font-size: 1.25em;
+	padding-top:20px;
+	padding-bottom:20px;
+	margin:0;
+}
+
+.content p {
+	padding-top:5px;
+	padding-bottom:5px;
+	margin-top:10px;
+}
+
+.content ul {
+	padding-left:0;
+	list-style:none;
+	
+}
+
+.content ul li span {
+	padding-right:5px;
+	
+}
+
+.content h1.top-heading {
+
+	padding-top:0px;
+
+}
+
+.panel-title {
+	font-size:1.25em;
+	
+}
+
+
+form input, textarea {
+	
+	min-width:300px;
+	color:#444;
+	background-color: #f5f5f5;
+
+}
+
+form input {
+	border: 0;
+	padding-left: 2px;
+	
+}
+
+form textarea{
+	height:200px;
+	resize:vertical;
+	
+}
+
+form input#submit{
+	margin-top:10px;
+	margin-bottom:5px;
+}
+
+footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	/* Set the fixed height of the footer here */
+	height: 50px;
+	background-color: #e7e7e7;
+}
+
+footer h4,h5 {
+	color:#003C5D;
+}
+
+footer div {
+	padding-top:5px;
+	text-align:center;
+	color: #444;
+}
+
+footer a:hover{
+	text-decoration:none;
+}
+
+
+.text-justify {
+	text-align:justify;
+}
+	
+.quote {
+	text-align: justify;
+	font-size: 1.25em;
+	background-color: #F1F1F1;
+	border: 1px solid black;
+	padding: 10px;
+}
+	
+
+div#accordion {
+	color: #444;
+}
+
+
+.panel-default.panel{
+	background-color: #f8f8f8;	
+}
+
+.panel-default.panel ul{
+	background-color: #f8f8f8;
+}
+
+.panel-default  .panel-heading {
+	background-color: #f0f0f0;
+}
+
+.panel-default .panel-body {
+	background-color: #f8f8f8;
+	border-top:0px;
+}
+
+#collapse3 > div > ul {
+	padding:20px 20px 20px 20px;
+}
+
+.contact-panel{
+	color: #f5f5f5;
+}
+
+
+.custom-bullet {	
+	margin-top:10px;	
+	margin-bottom:0px;	
+}
+
+.content p.blue-bg-quote {
+	margin-top:0px;
+	margin-bottom:20px;
+}
+
+.custom-bullet li:before {
+    /*Using a Bootstrap glyphicon as the bullet point*/
+    content: "\e080";
+    font-family: 'Glyphicons Halflings';
+    font-size: 9px;
+    float: left;
+    margin-top: 4px;
+    margin-left: -17px;
+    color: #CCCCCC;
+}
+
+.custom-bullet-black li:before {
+	/* dirigentie.html */
+	color:#444;
+}
+
+
+li#arrow-glyphicon:before {
+	content: "\e250";
+    font-family: 'Glyphicons Halflings';
+    font-size: 1em;
+    position: relative;
+    margin-right: 10px;
+    top: 2px;
+}
+
+li#road-glyphicon:before {
+	content: "\e024";
+    font-family: 'Glyphicons Halflings';
+    font-size: 1em;
+    position: relative;
+    margin-right: 10px;
+    top: 2px;
+}
+
+
+li#tel-glyphicon:before {
+	content: "\e145";
+    font-family: 'Glyphicons Halflings';
+    font-size: 1em;
+    position: relative;
+    margin-right: 10px;
+    top: 2px;
+}
+
+li#email-glyphicon:before {
+	content: "\2709";
+    font-family: 'Glyphicons Halflings';
+    font-size: 1em;
+    position: relative;
+    margin-right: 10px;
+    top: 2px;	
+}
+
+div.content ul li a{
+	color:	#f8f8f8;
+}
+
+.carousel {
+	max-width:800px;
+	border:5px solid #e7e7e7;
+	margin-bottom:5px;
+	
+}
+
+@media screen and (min-width: 767px) { 
+
+body {
+	width: calc(100vw - 34px);	
+}
+
+div.logo {	
+	padding-top:100px;	
+}
+
+.navbar-collapse {
+	padding-top:100px;
+}
+
+.content {
+	padding-left: 100px;
+	padding-top: 100px;
+	padding-right: 100px;
+}
+
+.logo-header {
+	display:none;
+}
+
+
+}
+
+
+@media screen and (max-width: 767px) { 
+
+body {
+	min-height:100%;
+}
+
+.logo {
+	display:none;
+}
+
+
+.navbar {
+	margin-bottom:0px;	
+}
+
+div.content > ul{
+	padding:0 20px 0 20px;
+	
+}
+
+.content h1.top-heading {
+	display:block;
+	background-color:#e7e7e7;
+	color:#444;
+	margin:5px 0px 5px 0px;
+	padding: 10px 0px 10px 0px;
+	line-height:20px;
+	text-align:center;	
+}
+
+.content ul h2 {
+	padding:10px 0 10px 0;	
+}
+
+.content h2 {
+	padding:10px 0 10px 20px;	
+}
+
+.content p {
+	padding:10px 20px 10px 20px;
+}
+
+div.content ul p {
+	padding-left:0;
+	margin-top:0px;
+	margin-bottom:20px;
+	
+}
+
+.custom-bullet li:before {
+	margin-left:-12px;	
+}
+
+body div.col-sm-9.col-lg-10 {
+	padding:0;
+	
+}
+
+div.contact-panel{
+	padding:10px 20px 10px 20px;	
+}
+
+form input, textarea {
+	width:100%;
+	max-width:400px;
+
+}
+
+div.content form p {
+	padding:10px 0 10px 0;
+	
+}
+
+h1.top-heading#contact{
+	background-color:#003C5D;
+	color:#f5f5f5;
+}
+
+.carousel {
+	position:relative;
+	top:-5px;
+	
+}
+
+}
+
+
+
+
